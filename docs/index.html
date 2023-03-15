@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Front-end and Vue Developer" />
+    <meta name="keywords" content="resume,cv,Marko Marković" />
+    <meta name="author" content="Marko Marković" />
+    <!-- <meta name="robots" content="noindex"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link
+      rel="preload"
+      href="./fonts/FiraGO-Regular.latin.woff2"
+      as="font"
+      crossorigin="anonymous"
+    /> -->
+    <link href="./build.css" rel="stylesheet" />
+    <title>Betul Kaplan — Resume</title>
+  </head>
+
+  <body>
+    <main class="font-firago hyphens-manual">
+      <!-- Page -->
+      <div
+        style="page-break-after: always"
+        class="p-6 m-3 mx-auto page max-w-2xl print:bg-white print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-gray-300"
+      >
+        <!-- Name -->
+        <div class="flex justify-between">
+          <header class="flex items-center mb-8 md:mb-11">
+            <div
+              class="initials-container h-full mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
+              style="
+                padding-bottom: 0.6875rem;
+                padding-top: 0.6875rem; /*11px*/
+              "
+            >
+              <div
+                class="initial text-center"
+                style="padding-bottom: 0.1875rem; /*3px*/"
+              >
+                B
+              </div>
+              <div class="text-center initial">K</div>
+            </div>
+            <div>
+              <h1 class="text-2xl font-semibold text-gray-750 pb-px">
+                Betul Kaplan
+              </h1>
+              <header class="mt-1.5 leading-normal text-gray-700 text-md">
+                betulkaplan7@gmail.com - Switzerland (+41) 77 257 26 18 -
+                Seidenstrasse 20, 8600 Dubendorf
+              </header>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/betulkaplandev/"
+                  target="_blank"
+                  class="mt-1.5 leading-normal text-gray-700 text-md"
+                >
+                  LinkedIn Profile
+                  <span
+                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                    >↗</span
+                  >
+                </a>
+                <a
+                  href="//webpraktikos.com"
+                  class="mt-1.5 leading-normal text-gray-700 text-md"
+                >
+                  Introduction Video
+                  <span
+                    class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                    >↗</span
+                  >
+                </a>
+              </span>
+            </div>
+          </header>
+
+          <div>
+            <button
+              onclick="window.print()"
+              class="bg-gray-700 text-white p-3 btn print:hidden rounded-lg inline-flex items-center"
+            >
+              <svg
+                class="h-5 w-5 text-white mr-2"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="6 9 6 2 18 2 18 9" />
+                <path
+                  d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"
+                />
+                <rect x="6" y="14" width="12" height="8" />
+              </svg>
+              Print
+            </button>
+          </div>
+        </div>
+
+        <!-- end Name -->
+
+        <!-- Column -->
+        <div
+          class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto"
+        >
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
+                ABOUT ME XX
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Software Engineer
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">Since 2010</p>
+                </header>
+                <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                  Passionate fullstack developer with over two years of
+                  experience in the field. possess exceptional skills in
+                  creating clean-codes, and reusable compoenents. As a
+                  participative team player, have strong communication which
+                  leads to efective collaboration with colleagues. Has big
+                  eagerness to discover and apply new technologies to take on
+                  complex challenges with a creative and innovative approach.
+                </p>
+              </section>
+            </div>
+          </section>
+
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
+                EXPERIENCE
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Amplo AG
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Mar 2022 – Present | Fullstack Developer
+                  </p>
+                </header>
+                <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                  Worked as a fullstack developer in smart maintance platform
+                  project. Took various responsibility esides development such
+                  as setting up integration tests and automated staging
+                  environments b
+                </p>
+                <ul class="">
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Created reusable form elements using react-hook-form and
+                    generics in TypeScript.
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Implemented single sign feature using Google and Microsoft
+                    API for OAuth2.
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Designed database performant APIs using Django ORM features
+                    to avoid N+1 issues and in line with idempotency discipline.
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Developed asynchronous and scheduled tasks using Celery
+                    Python pack, improving the efficiency and scalability of the
+                    web application's backend services.
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Used Cypress and GitHub actions to setup automated staging
+                    flows which reduces around 60% bugs in production.
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Created a Kubernetes cluster in Azure and set up a staging
+                    environment to reflect every update in the main branch
+                  </li>
+                </ul>
+              </section>
+            </div>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Hypnotes
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  April 2020 – Sep 2021 | Frontend Developer
+                </p>
+              </header>
+              <ul class="">
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Developed responsive web pages in Next.js
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Worked in an environment that employs Docker, Jira, Github for
+                  project management and deployment.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Used Ant Design / Ant Charts tools, Bootstrap, Moment.js,
+                  Fuse.js.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Applied Google Geocoding solutions for client addressing.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Implemented PayPal payment solutions.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Fixed bugs emerging in different browsers.
+                </li>
+              </ul>
+            </section>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Clarusway
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  May 2020 – Aug 2021 | Course Mentor
+                </p>
+              </header>
+              <ul class="">
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Developed interactive, responsive and scalable frontend and
+                  mobile applications using Django, React.js, Redux, Next.js,
+                  HTML5, CSS3, JavaScript ES6, Git@Github
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Experienced in writing modular and reusable codes, using build
+                  tools and package managers,
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Studied on Computational Thinking, Operating Systems, Linux,
+                  Version Control Systems, Software Development Life Cycle
+                  (SDLC)
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                    >›</span
+                  >
+                  Used SCRUM & Agile methodologies and JIRA while working on
+                  individual & group projects
+                </li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
+                SKILLS
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Frontend
+                  </h3>
+                </header>
+                <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                  Strong frontend skills with ability to leverage TypeScript's
+                  strong typing system and use generic types for creating
+                  reusable components.
+                </p>
+                <div class="my-3.2 last:pb-1.5">
+                  <ul
+                    class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                  >
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      TypeScript
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      ES6
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      React
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Node
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Chakra UI
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Figma
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Backend
+                  </h3>
+                </header>
+                <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                  Proficient in Python type system. Utilized Python along with
+                  Django Rest Framework to develop robust and scalable backend
+                  systems
+                </p>
+                <div class="my-3.2 last:pb-1.5">
+                  <ul
+                    class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                  >
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Python
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      MyPy
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Django
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Django Rest Framework
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Celery
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Functional Programming
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Other
+                </h3>
+              </header>
+              <div class="my-3.2 last:pb-1.5">
+                <ul
+                  class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                >
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    Redis
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    Docker
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    Celery
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
+                EDUCATION
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Clarusway ( Bootcamp )
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Nov 2020 – Aug 2021 | Fullstack Development Program
+                  </p>
+                </header>
+              </section>
+            </div>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Dokuz Eylul University
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  2012 – 2018 | Bachelor’s Degree in Electrical and Electronics
+                  Engineering
+                </p>
+              </header>
+            </section>
+          </section>
+        </div>
+        <!-- end Column -->
+      </div>
+      <!-- end Page -->
+    </main>
+  </body>
+</html>
