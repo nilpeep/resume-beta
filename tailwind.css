@@ -43,13 +43,17 @@ html {
 
 @screen sm {
   html {
-    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (833 - 640) );
+    font-size: calc(
+      13.176471px + (16 - 13.176471) * (100vw - 640px) / (833 - 640)
+    );
   }
 }
 
 @screen md {
   html {
-    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833) );
+    font-size: calc(
+      12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833)
+    );
   }
 }
 
